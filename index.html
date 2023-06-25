@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Purchase</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Product Purchase</h1>
+  <div id="container">
+    <label for="firstNameInput">First Name:</label>
+    <input type="text" id="firstNameInput"><br>
+
+    <label for="familyNameInput">Family Name:</label>
+    <input type="text" id="familyNameInput"><br>
+
+    <label for="productNameInput">Product Name:</label>
+    <input type="text" id="productNameInput"><br>
+
+    <button onclick="buy()">Buy</button>
+    <button onclick="show()">Show</button>
+
+    <h2>Purchase History</h2>
+    <label for="fullNameInput">Full Name:</label>
+    <input type="text" id="fullNameInput">
+    <button onclick="purchaseHistory()">Get Purchase History</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
